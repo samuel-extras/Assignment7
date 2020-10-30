@@ -1,0 +1,88 @@
+
+body {
+    background-image: linear-gradient(120deg, #f5c21a, #e2635d);
+    color: white;
+    font-family: "Poppin", sans-serif;
+    min-height: 92vh;
+  }
+.container{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    padding: 0 20px;
+    margin:40px auto auto auto;
+}
+.player-name{
+max-width: 100%;
+width: auto;
+justify-content: center;
+text-align: center;
+height: 40px;
+font-size: 2em;
+margin-bottom: 20px;
+
+}
+.dice-value{
+    max-width: 100%;
+    max-width: auto;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    font-size: 2em;
+    
+}
+.dice-image{
+    width: 100%;
+    min-height: 200px;
+        margin-top: 10px;
+
+
+}
+.score{
+    width: 100%;
+    text-align: center;
+    min-height: 40px;
+        box-sizing: border-box;
+    margin-top: 10px;
+
+
+}
+.buttons{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+        box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+button{
+    width: auto;
+    color: #fff;
+    background: tomato;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 1.5em;
+    outline: none;
+    min-width: 180px;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.result{
+    max-width: 100%;
+    width: auto ;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+          box-sizing: border-box;
+     min-height: 60px;
+}
+.roll-btn {
+    background: rgb(73, 204, 73);
+  }
+.reset-btn {
+    background: #ff6f47;
+}
