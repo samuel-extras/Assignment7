@@ -5,7 +5,6 @@ const value = document.querySelector(".dice-value");
 const score = document.querySelector(".score");
 const result = document.querySelector(".result");
 const diceNumber = (event) => {
-    console.log("hhhhh");
   const num = Math.floor(Math.random() * 6 + 1);
   roll += num;
   count += 1;
@@ -31,7 +30,7 @@ const reset =()=>{
     count=0
     roll =0
     result.innerHTML=""
-    image.src = ``;
+    image.removeAttribute("src")
   value.innerHTML = "";
 score.innerHTML = 0
 
